@@ -1,0 +1,80 @@
+### Environment files
+.env
+.env.*
+*.env
+*.env.*
+.envrc
+.direnv/
+
+### Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+### Python caches and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.pytest_cache/
+.cache/
+
+### Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+### Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+### Logs
+*.log
+logs/
+log/
+
+### IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### Notebooks
+.ipynb_checkpoints/
+
+### Node (if present)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+### Docker/Runtime
+docker-data/
+*.pid
+
+### Security/keys
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.cer
+
+### Local overrides
+.local/
+
